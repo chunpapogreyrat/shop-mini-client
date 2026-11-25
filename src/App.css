@@ -121,6 +121,29 @@ main {
   background: #174bb0;
 }
 
+/* ---------- Bài tập về nhà: nhãn Hết hàng ---------- */
+.product-image {
+  position: relative;
+}
+
+.badge-out {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: #dc2626;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.btn:disabled,
+.btn:disabled:hover {
+  background: #9ca3af;
+  cursor: not-allowed;
+}
+
 /* ---------- Bài tập về nhà: Banner ---------- */
 .banner {
   display: flex;
