@@ -154,6 +154,30 @@ main {
   background: #e8efff;
 }
 
+/* ---------- Bài tập về nhà: Danh mục ---------- */
+.category-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 32px;
+}
+
+.category-chip {
+  display: inline-block;
+  padding: 8px 18px;
+  border-radius: 999px;
+  background: #fff;
+  border: 1px solid #d1d5db;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.category-chip:hover {
+  border-color: #1f5fd1;
+  color: #1f5fd1;
+}
+
 /* ---------- Footer ---------- */
 .footer {
   background: #0f1b2d;
